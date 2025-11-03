@@ -81,11 +81,6 @@ class AdminPanelProvider extends PanelProvider
                 ->icon('heroicon-o-document-text')
                 ->visible(fn (): bool => auth()->check() && auth()->user()->hasRole('Usuario')),
 
-
-           /* NavigationItem::make('Revisar Bitácoras')
-                ->url('/admin/revisar-bitacoras')
-                ->icon('heroicon-o-clipboard-document-check')
-                ->visible(fn (): bool => auth()->check() && auth()->user()->isInstructor()),*/
         ];
     }
 
