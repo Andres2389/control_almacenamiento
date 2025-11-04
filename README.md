@@ -8,7 +8,7 @@
 - 📁 **Gestión de archivos** con almacenamiento por usuario.  
 - 💾 **Subida y descarga segura** de documentos con diferentes extensiones (PDF, ZIP, TXT, imágenes, etc.).  
 - 🔐 **Control de acceso por roles (Administrador / Usuario)**.  
-- 📊 **Barra de progreso dinámica** del espacio de almacenamiento usado por cada usuario.  
+
 - 🧹 **Actualización automática** de estadísticas al eliminar archivos.  
 - 👥 **Panel de administración completo con Filament** para gestionar usuarios, grupos y archivos.  
 - 💬 **Notificaciones visuales** en cada acción (subida, eliminación, error, etc.).  
@@ -40,7 +40,7 @@
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com//ssetp.git](https://github.com/Andres2389/control_almacenamiento.git
+git clone https://github.com/Andres2389/control_almacenamiento.git
 cd desktop
 cd control_almacenamineto
 
@@ -68,7 +68,7 @@ php artisan key:generate
 # 7. Iniciar servidor local
 php artisan serve
 
-# 7. usuarios de prueba
+# 8. usuarios de prueba
 Admin:admin@example.com
 contraseña: password
 
